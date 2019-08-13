@@ -1,10 +1,21 @@
 hash,type,name
 b431dc19c8df206ddf0de82afa77e007,import,get_cowley_lizards
 26ce80451e9fb7906f7cf8a484b467b6,import,get_cowley_snakes
+998587909aff178b49076e77a8cf5ebc,import,get_default_data_path
+b0a0954a7896f0de55931acc8f0157ad,import,get_mtquad_data
+3d45a981d4f6bb8967bc5bd4b88ca792,import,import_retriever_data
 790a7d013bc7b27340e5b6ec74090b38,target,lizards
+7966b4c799697531c10839749475f296,target,mtquad
 a5fae90e60cdb81b74e0fcb40325b7db,import,dplyr::mutate_if
 8a521faefe91279da5c3dcb614326b85,import,dplyr::na_if
 2f905f40753fdc1104aa9f70df959479,import,dplyr::one_of
 15939b6507634e8a2f2129242efc73a3,import,dplyr::filter
+7b514af2c9d22fc3729f67b28644fca3,import,dplyr::group_by
+eb1a4d6d8434bc6193dbdc200eb5582e,import,dplyr::summarize
 56b165a5c33e054ae146a29b0153229f,import,dplyr::select
+029a52fdcf597e61c62942298f0e826e,import,dplyr::ungroup
+e04936f4d02c3bd54559c589273f67a6,import,portalr::get_default_data_path
+560db1575104c988668b329d8c8c26c9,import,tidyr::spread
+66a82039397cf919b6001b7910fdec3b,import,utils::read.csv
+b997b57ebe374b7b967bfd295fcb4944,import,file /Users/hye/data/mapped-plant-quads-mt
 1605432bba3da641049257b5dd17c01a,target,snakes
